@@ -48,6 +48,7 @@ body {
     letter-spacing: 3px;
     font-weight: bold;
     font-family:sans-serif;
+    
 }
 
 .menu-volume {
@@ -169,27 +170,80 @@ letter-spacing: 3px;
     margin-top: 15px;
     line-height: 28px;
 }
-
-
-
-
-
-
-
-
 /* about part end */
+/* resume part start */
+.resume-top {
+width: 100%;
+
+}
+.resume-top h1{
+color: rgb(251, 255, 0);
+text-align: center;
+margin-top: 120px;
+text-shadow: 0px 15px 0px rgb(100, 97, 97);
+fon
+}
+.resume-top p {
+color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 30px;
+text-transform:capitalize;
+
+}
+
+.resume-bottom-left{
+width: 500px;
+float: left;
+background-color: rgb(37, 37, 37);
+margin-top: 50px;
+margin-bottom: 50px;
+border-left: 5px solid rgb(216, 253, 6);
+
+}
+.resume-bottom-left h1{
+color: rgb(255, 255, 255);
+padding: 15px 25px;
+}
+.resume-bottom-left p{
+color: aliceblue;
+padding: 15px 25px;
+}
+.resume-bottom-right{
+width: 500px;
+float: right;
+
+background-color: rgb(37, 37, 37);
+margin-top: 50px;
+margin-bottom: 50px;
+border-left: 5px solid yellow;
+
+}
+.resume-bottom-right h1{
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    }
+    .resume-bottom-right p{
+        color: aliceblue;
+        padding: 15px 25px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+/* resume part end  */
 /* portfolio part start */
 
 
 
 
 /* portfolio part end  */
-/* resume part start */
-
-
-
-
-/* resume part end  */
 /* contact part start */
 
 
