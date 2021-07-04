@@ -26,7 +26,6 @@ body {
     background-color: rgb(0, 0, 0);
     font-family: 'Rubik', sans-serif;
     te
-
 }
 
 /* header part start */
@@ -47,8 +46,8 @@ body {
     font-size: 35px;
     letter-spacing: 3px;
     font-weight: bold;
-    font-family:sans-serif;
-    
+    font-family: sans-serif;
+
 }
 
 .menu-volume {
@@ -100,7 +99,7 @@ body {
 .banner-left-volume {
     width: 500px;
     float: left;
-   
+
 }
 
 .banner-left-volume h5 {
@@ -119,17 +118,17 @@ body {
 
 }
 
-.link-button{
-display: inline-block;
+.link-button {
+    display: inline-block;
     padding: 15px 45px;
     margin-top: 45px;
     letter-spacing: 5px;
-   background-color: yellow;
+    background-color: yellow;
     border-radius: 8px;
     color: black;
 }
 
-.link-button:hover{
+.link-button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
@@ -140,92 +139,101 @@ display: inline-block;
 /* banner part end */
 /* about part start */
 
-.about-bg{
+.about-bg {}
 
-}
-.about-volume {
+.about-volume {}
 
+.about-left {
+    width: 600px;
+    float: left;
 }
-.about-left{
-width: 600px;
-float: left;
-}
-.about-left img{
+
+.about-left img {
     height: 300px;
-margin-top: 120px;
+    margin-top: 120px;
 }
 
 
-.about-right{
+.about-right {
     width: 500px;
     float: right;
 }
-.about-right h1{
-color: rgb(251, 255, 8);
-margin-top: 120px;
-letter-spacing: 3px;
+
+.about-right h1 {
+    color: rgb(251, 255, 8);
+    margin-top: 120px;
+    letter-spacing: 3px;
 }
-.address{
+
+.address {
     color: rgb(255, 255, 255);
     margin-top: 15px;
     line-height: 28px;
 }
+
 /* about part end */
 /* resume part start */
 .resume-top {
-width: 100%;
+    width: 100%;
 
 }
-.resume-top h1{
-color: rgb(251, 255, 0);
-text-align: center;
-margin-top: 120px;
-text-shadow: 0px 15px 0px rgb(100, 97, 97);
-fon
+
+.resume-top h1 {
+    color: rgb(251, 255, 0);
+    text-align: center;
+    margin-top: 120px;
+    text-shadow: 0px 15px 0px rgb(100, 97, 97);
+    fon
 }
+
 .resume-top p {
-color: rgb(255, 255, 255);
-text-align: center;
-margin-top: 30px;
-text-transform:capitalize;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    text-transform: capitalize;
 
 }
 
-.resume-bottom-left{
-width: 500px;
-float: left;
-background-color: rgb(37, 37, 37);
-margin-top: 50px;
-margin-bottom: 50px;
-border-left: 5px solid rgb(216, 253, 6);
+.resume-bottom-left {
+    width: 500px;
+    float: left;
+    background-color: rgb(37, 37, 37);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 5px solid rgb(216, 253, 6);
 
 }
-.resume-bottom-left h1{
-color: rgb(255, 255, 255);
-padding: 15px 25px;
-}
-.resume-bottom-left p{
-color: aliceblue;
-padding: 15px 25px;
-}
-.resume-bottom-right{
-width: 500px;
-float: right;
 
-background-color: rgb(37, 37, 37);
-margin-top: 50px;
-margin-bottom: 50px;
-border-left: 5px solid yellow;
-
-}
-.resume-bottom-right h1{
+.resume-bottom-left h1 {
     color: rgb(255, 255, 255);
     padding: 15px 25px;
-    }
-    .resume-bottom-right p{
-        color: aliceblue;
-        padding: 15px 25px;
-        }
+}
+
+.resume-bottom-left p {
+    color: aliceblue;
+    padding: 15px 25px;
+}
+
+.resume-bottom-right {
+    width: 500px;
+    float: right;
+
+    background-color: rgb(37, 37, 37);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 5px solid yellow;
+
+}
+
+.resume-bottom-right h1 {
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+}
+
+.resume-bottom-right p {
+    color: aliceblue;
+    padding: 15px 25px;
+}
 
 
 
