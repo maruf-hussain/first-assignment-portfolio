@@ -23,7 +23,7 @@ a {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: 'Rubik', sans-serif;
     te
 
@@ -47,7 +47,7 @@ body {
     font-size: 35px;
     letter-spacing: 3px;
     font-weight: bold;
-    font-family: unset;
+    font-family:sans-serif;
 }
 
 .menu-volume {
@@ -93,7 +93,7 @@ body {
 .banner-right-volume img {
     float: right;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .banner-left-volume {
@@ -104,7 +104,7 @@ body {
 
 .banner-left-volume h5 {
     color: yellow;
-    margin-top: 100px;
+    margin-top: 150px;
 
 }
 
@@ -119,11 +119,55 @@ body {
 }
 
 .link-button{
+display: inline-block;
     padding: 15px 45px;
-    margin-top: 15px;
+    margin-top: 45px;
     letter-spacing: 5px;
-    background-color: yellow;
+   background-color: yellow;
     border-radius: 8px;
+    color: black;
+}
+
+.link-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/* banner part end */
+/* about part start */
+
+.about-bg{
+
+}
+.about-volume {
+
+}
+.about-left{
+width: 600px;
+float: left;
+}
+.about-left img{
+    height: 300px;
+margin-top: 120px;
+}
+
+
+.about-right{
+    width: 500px;
+    float: right;
+}
+.about-right h1{
+color: rgb(251, 255, 8);
+margin-top: 120px;
+letter-spacing: 3px;
+}
+.address{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    line-height: 28px;
 }
 
 
@@ -132,10 +176,6 @@ body {
 
 
 
-
-
-/* banner part end */
-/* about part start */
 
 /* about part end */
 /* portfolio part start */
